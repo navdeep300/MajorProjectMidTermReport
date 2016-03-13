@@ -1,0 +1,71 @@
+
+\section{Software Requirement Analysis}
+A Software Requirements Analysis for a software system is a complete 
+description of the behaviour of a system to be developed. It includes 
+a set of use cases that describe all the interactions the users will 
+have with the software. In addition to use cases, the SRS also contains 
+non-functional requirements. Non-functional requirements are 
+requirements which impose constraints on the design or implementation.
+\begin{itemize}
+\item{\bf General Description}: The Drawing module allows you to put your 3D work on paper. That is, to put views of your models in a 2D window and to insert that window in a drawing, for example a sheet with a border, a title and your logo and finally print that sheet. The drawing may consist of different views like top, front, side and orthographic views. It is developed using FreeCad, Qt and C++.
+\item{\bf Users of the System}: The main target users are the Civil Engineers who want their plans to be printed on the sheets.
+As of now, they have to create the drawings separately with different views in any CAD software
+and the 3D model separately. So to automate converting a particular three-dimensional model to
+the print-ready drawings (with different views), this project will be beneficial. So to decrease the
+efforts, time and cost, it would be really beneficial.
+\end{itemize}
+\subsection{Functional Requiremets}
+\begin{itemize}
+\item {\bf Specific Requirements}: This phase covers the whole requirements 
+for the system. After understanding the system we need the input data 
+to the system then we watch the output and determine whether the output 
+from the system is according to our requirements or not. So what we have 
+to input and then what we’ll get as output is given in this phase. This 
+phase also describe the software and non-function requirements of the 
+system.
+\item {\bf Input Requirements of the System}
+\begin{enumerate} 
+\item Three Dimensional Model.
+\item Dimensions Of Different Views.
+\item Scaling Parameters.
+\item Name Of Particular Object.
+\end{enumerate}
+\vskip 0.5cm
+\item {\bf Output Requirements of the System}
+\begin{enumerate} 
+\item 2Dimensional Model.
+\item Generation Of Front View.
+\item Generation Of Top View.
+\item Generation Of Side View.
+\end{enumerate}
+\vskip 0.5cm
+\item {\bf Special User Requirements}
+\begin{enumerate} 
+\item Exporting the 2D model in pdf or svg format.
+\end{enumerate}
+\vskip 0.5cm
+\item {\bf Software Requirements}
+\begin{enumerate} 
+\item Programming language: C++
+\item Framework: Qt
+\item Documentation: Doxygen 1.8.3
+\item Text Editor: Gedit, Notepad++, Sublime
+\item Operating System: Ubuntu 12.04 or up
+\item Web Server: Apache 2.4
+\end{enumerate}
+\end{itemize}
+\subsection{Non functional requirements}
+\begin{enumerate} 
+\item Scalability: System should be able to handle a number of users. 
+For e.g., handling around hundred users at the same time.
+\item Usability: Simple user interfaces that a layman can understand.
+\item Speed: Speed of the system should be responsive i.e. Response to
+ a particular action should be available in short period of time. 
+\end{enumerate}
+
+
+
+
+
+
+
