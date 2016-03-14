@@ -9,6 +9,7 @@
 \usepackage{wrapfig}
 \usepackage{fancyhdr}
 \usepackage{verbatim}
+\usepackage{listings}
 %Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
 \usepackage[Glenn]{fncychap}
 \lhead{\large\bfseries  Automated Building Drawings}
@@ -46,8 +47,8 @@
 
 \newpage
 \tableofcontents
-%\newpage
-%\listoffigures
+\newpage
+\listoffigures
 \newpage
 
 \pagenumbering{arabic}
@@ -62,10 +63,11 @@
 \input{input/softreqanalysis.tex}
 \chapter{Software Design}
 \input{input/design.tex}
-%\chapter{Technologies Used}
-%\input{input/techno-used.tex}
-%\chapter{Development and Implementation}
-%\input{input/implement.tex}
+\input{input/doxygen.tex}
+\chapter{Coding Module}
+\input{input/techno-used.tex}
+\chapter{User Interface}
+\input{input/implement.tex}
 %\chapter{Conclusion and Future Scope}
 %\input{input/conclusion.tex}
 \input{input/references.tex}
